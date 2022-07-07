@@ -9,8 +9,9 @@
 
 ### Run
 
-`brain-even` — brain even
-`brain-calc` — brain calc
+-   `brain-even` — brain even
+-   `brain-calc` — brain calc
+-   `brain-gcd` — brain gcd
 
 ### brain-even
 
@@ -19,3 +20,7 @@
 ### brain-calc
 
 [![asciicast](https://asciinema.org/a/506821.svg)](https://asciinema.org/a/506821)
+
+### brain-gcd
+
+[![asciicast](https://asciinema.org/a/506839.svg)](https://asciinema.org/a/506839)
