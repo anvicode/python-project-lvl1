@@ -10,7 +10,12 @@
 ### Run
 
 `brain-even` — brain even
+`brain-calc` — brain calc
 
 ### brain-even
 
 [![asciicast](https://asciinema.org/a/506622.svg)](https://asciinema.org/a/506622)
+
+### brain-calc
+
+[![asciicast](https://asciinema.org/a/506821.svg)](https://asciinema.org/a/506821)
