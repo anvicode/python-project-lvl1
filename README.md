@@ -13,6 +13,7 @@
 -   `brain-calc` — brain calc
 -   `brain-gcd` — brain gcd
 -   `brain-progression` — brain progression
+-   `brain-prime` — brain prime
 
 ### brain-even
 
@@ -29,3 +30,7 @@
 ### brain-progression
 
 [![asciicast](https://asciinema.org/a/507698.svg)](https://asciinema.org/a/507698)
+
+### brain-prime
+
+[![asciicast](https://asciinema.org/a/507776.svg)](https://asciinema.org/a/507776)
