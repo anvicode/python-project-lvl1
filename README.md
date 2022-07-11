@@ -12,6 +12,7 @@
 -   `brain-even` — brain even
 -   `brain-calc` — brain calc
 -   `brain-gcd` — brain gcd
+-   `brain-progression` — brain progression
 
 ### brain-even
 
@@ -24,3 +25,7 @@
 ### brain-gcd
 
 [![asciicast](https://asciinema.org/a/506839.svg)](https://asciinema.org/a/506839)
+
+### brain-progression
+
+[![asciicast](https://asciinema.org/a/507698.svg)](https://asciinema.org/a/507698)
