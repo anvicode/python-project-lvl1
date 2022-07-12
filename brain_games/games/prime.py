@@ -16,9 +16,14 @@ def get_round():
 
 
 def is_prime(number):
-    if number > 1:
-        for num in range(2, number):
-            if number % num == 0:
+    if number == 2:
+        return True
+    elif number == 1:
+        return False
+    else:
+        i = number
+        while i > 2:
+            i -= 1
+            if number % i == 0:
                 return False
         return True
-    return False
