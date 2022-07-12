@@ -1,10 +1,11 @@
 #!/usr/bin/env python
-"""Add brain_progression."""
+from brain_games.engine import run
+from brain_games.games import progression
 
-from brain_games.games.progression import progression
 
 def main():
-    progression()
+    run(progression)
+
 
 if __name__ == '__main__':
     main()

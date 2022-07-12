@@ -1,10 +1,11 @@
 #!/usr/bin/env python
-"""Add brain_gcd."""
+from brain_games.engine import run
+from brain_games.games import gcd
 
-from brain_games.games.gcd import gcd
 
 def main():
-    gcd()
+    run(gcd)
+
 
 if __name__ == '__main__':
     main()

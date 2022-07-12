@@ -1,31 +1,19 @@
-"""Add prime_brain_game."""
+#!/usr/bin/env python
+from random import randint
 
-import prompt
-import random
+TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+LOWER_BOUND = 2
+UPPER_BOUND = 100
 
-def prime():
-    print('Welcome to the Brain Games!')
-    user_name = prompt.string('May I have your name? ')
-    print(f'Hello, {user_name}!')
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    result = 0
-    while result < 3:
-        number = random.randint(2, 100)
-        print(f'Question: {number}')
-        user_answer = prompt.string('Your answer: ')
-        if is_prime(number) and user_answer == 'yes':
-            print('Correct!')
-            result += 1
-        elif is_prime(number) and user_answer == 'no':
-            print(''''no' is wrong answer ;(. Correct answer was 'yes'.''')
-            print(f'''Let's try again, {user_name}!''')
-        elif is_prime(number) == False and user_answer == 'yes':
-            print(''''yes' is wrong answer ;(. Correct answer was 'no'.''')
-            print(f'''Let's try again, {user_name}!''')
-        elif is_prime(number) == False and user_answer == 'no':
-            print('Correct!')
-            result += 1
-    print(f'Congratulations, {user_name}!')
+
+def get_round():
+    number = randint(LOWER_BOUND, UPPER_BOUND)
+    if is_prime(number):
+        correct_answer = 'yes'
+    else:
+        correct_answer = 'no'
+    return number, correct_answer
+
 
 def is_prime(number):
     if number > 1:

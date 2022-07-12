@@ -1,10 +1,11 @@
 #!/usr/bin/env python
-"""Add brain_calc."""
+from brain_games.engine import run
+from brain_games.games import calc
 
-from brain_games.games.calc import calc
 
 def main():
-    calc()
+    run(calc)
+
 
 if __name__ == '__main__':
     main()

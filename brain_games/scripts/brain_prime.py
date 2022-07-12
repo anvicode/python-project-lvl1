@@ -1,10 +1,11 @@
 #!/usr/bin/env python
-"""Add brain_prime."""
+from brain_games.engine import run
+from brain_games.games import prime
 
-from brain_games.games.prime import prime
 
 def main():
-    prime()
+    run(prime)
+
 
 if __name__ == '__main__':
     main()
